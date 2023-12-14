@@ -1,0 +1,225 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi","Hello","Hey","Good morning","Good afternoon","Good evening","Hi there", 
+                   "How are you", "Is anyone there?","Good day"],
+      "responses": ["Hello! How can I help you with your farming questions today?"],
+      "context": [""]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye","bye","See you later","Goodbye","goodbye", "Have a nice day",
+                   "Till next time", "See you", "Cheers"],
+      "responses": ["Goodbye! If you have any more farming questions or need assistance in the future, feel free to reach out. Happy farming!"],
+      "context": [""]
+    },
+        
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks","Thank you","That's helpful","Awesome, thanks","Thanks for helping me"],
+      "responses": ["Glad I could assist! Happy farming!"],
+      "context": [""]
+    },
+    
+    {
+      "tag": "Michade Farms",
+      "patterns": [ "What is MichAde Farms?","What is Michade Farms?", "Tell me about Michade Farms.",
+      "Can you provide information about Michade Farms?",
+      "What does Michade Farms do?", "Is Michade Farms a farm?",
+      "Can you describe Michade Farms?", "What products does Michade Farms offer?",
+      "Is Michade Farms a company?", "Tell me more about Michade Farms.",
+      "Can you explain what Michade Farms is?","What is the farm about?", "Tell me about the farm.",
+      "Can you provide information about the farm?",
+      "What does this farm do?", "Is it a working farm?",
+      "Can you describe this farm?", "What activities take place on this farm?",
+      "What products does this farm offer?", "What sets this farm apart?",
+      "Tell me more about this farm."],
+      "responses": [ "MichAde Farms is a ranch founded on the 6th of June 2016 as a family business.It is located along Osogbo-Ede-Iwo-Ibadan Express way Osun State,was established with the love for healthy living, empowerment to young people, improve economy and feeding of Nigerians in mind. " ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "products",
+      "patterns": [ "What does the farm produce?","What products do you offer?", "Can you tell me about your products?",
+      "Do you have a product catalog?", "What are your best-selling products?",
+      "Are there any new products?", "Can you recommend a product?",
+      "What are the product specifications?", "Are there different product variants?",
+      "Do you offer customization options?", "Are the products in stock?",
+      "Can I see product images?", "What are the product reviews?",
+      "Is there a warranty for the products?", "Do you have product bundles?",
+      "Can I request a sample of a product?", "Are there any limited edition products?",
+      "What are the product categories?", "Can I get product comparisons?",
+      "Are there any product demonstrations?", "How can I find product details?", "What does MichAde Farms produce?", "What does the ranch produce?", "What products do you offer?", "Tell me about your farm products", "What can I buy from MichAde Farms?" ],
+      "responses": [ "MichAde Farms offers a variety of products including dairy items like Cow Milk, Yoghurt, and Cheese.\n We also have a selection of beef from Cow, Goat, Ram, and Sheep. Additionally, we provide Grass Silages for animal consumption." ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "pricing and order",
+      "patterns": [ "How much does your milk cost?", "How much does it cost?", "What is the price?", "Can I get a quote?",
+      "Do you offer discounts?", "Are there any promotions?",
+      "What are the available payment options?", "Is there a payment plan option?",
+      "What is the process for placing an order?", "How do I order?",
+      "Can I order online?", "What are the shipping costs?",
+      "Can I track my order?", "What is the order status?",
+      "How long does delivery take?", "Do you offer express delivery?",
+      "Is there a minimum order quantity?", "Can I modify my order?",
+      "What is your return policy?", "Can I cancel an order?",
+      "Are there any restrictions on ordering?","Do you offer bulk discounts?", "Can I place an order for beef?" ],
+      "responses": [ "For pricing details and bulk orders, please contact us directly at +2348037149761 or info@michadefarms.com.ng." ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [ "How can I contact MichAde Farms?", "How can I contact you?", "What are your contact details?", "Can I get your phone number?",
+      "Is there an email address for inquiries?", "Where is your office located?",
+      "What are your working hours?", "How can I talk to your support team?",
+      "Who should I contact for product-related questions?", "Do you have a customer service department?",
+      "Can I get your address?", "Is there a helpline number?", "How can I get in touch with your sales team?",
+      "Are there any partnership opportunities available?", "Can I request event sponsorship?",
+      "Who should I contact for media inquiries?", "How can I give feedback on my recent purchase?",
+      "Can I get information on wholesale purchases?", "Are there any job openings? How can I apply?",
+      "I have a general question. Where can I find more information?","How can i contact you?", "What's your farm's phone number?", "Can I get your email address?" ],
+      "responses": [ "You can reach us at +2348037149761 or via email at info@michadefarms.com.ng." ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "operating hour",
+      "patterns": [ "What are your farm's operating hours?", "What are your operating hours?", "When do you open and close?", "What are your business hours?",
+      "Are you open on weekends?", "What are your hours of operation on weekdays?",
+      "Do you operate on holidays?", "Can I know your working hours?",
+      "Are there any specific hours for customer service?", "When do you start and end your day?","time of operation","Opening time","When is the farm open?", "What time does MichAde Farms close?" ],
+      "responses": [ "Our farm is open from 10am to 4pm for Monday to Friday and 10am to 2pm on Saturday" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "Location",
+      "patterns": [ "Where is MichAde Farms located?","Where are you located?", "What is your address?", "Can you tell me where you are based?",
+      "I want to know your physical location.", "Where can I find you?",
+      "What is the address of your main office?", "Can you provide directions to your office?",
+      "What city are you in?", "Where is your headquarters?",
+      "What is the location of your store?", "Can you give me your GPS coordinates?",
+      "What are your operating locations?", "Where can I visit you?",
+      "Which area are you situated in?", "Please tell me your location details.","what is your location","where are you located","What's the address of your farm?", "Where can I find MichAde Farms?." ],
+      "responses": [ "MichAde Farms is located at along Osogbo-Ede-Iwo-Ibadan Express way, Ede Osun State,Nigeria." ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "customer support",
+      "patterns": [ "I have a problem with my order", "How can I contact customer support?", "What are the customer support contact details?",
+      "Can I get the support phone number?", "Is there an email for customer inquiries?",
+      "Where can I reach the support team?", "How can I talk to a support representative?",
+      "What are the hours of customer support?", "Can I get assistance with my issue?",
+      "Is there a helpline for customer support?", "How do I get help with my order?",
+      "What is the process for getting customer support?", "Can I speak to a live agent?",
+      "How can I report a problem?", "What are the available support channels?",
+      "Can you provide information about customer service?",
+      "Is there a support chat available?", "How can I get technical assistance?",
+      "What do I do if I need help?", "Are there FAQs for common issues?",
+      "How can I get help with a product?","My delivery is delayed", "Can you help me with an issue?" ],
+      "responses": [ "I'm sorry to hear that. Please describe the issue, and we'll do our best to assist you. You can also contact our customer support at +2348037149761 or via email at info@michadefarms.com.ng." ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "farm tour",
+      "patterns": [ "Do you offer farm tours?", "Can I visit MichAde Farms?", "Are you open for visitors?" ],
+      "responses": [ "We love welcoming visitors to MichAde Farms. To schedule a farm tour or visit, please contact us in advance at +2348037149761 or via email at info@michadefarms.com.ng." ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "special offers",
+      "patterns": [ "Do you have any current promotions?", "Are there any current special offers?", "Do you have any promotions?",
+      "What are the latest deals?", "Are there any discounts?",
+      "Can I get a coupon?", "What are the ongoing sales?",
+      "Do you have any limited-time offers?", "Are there any bundle offers?",
+      "Can I get freebies with a purchase?", "Are there seasonal offers?",
+      "What are the loyalty rewards?", "Do you offer birthday discounts?",
+      "Can I subscribe to receive offers?", "Are there exclusive member benefits?",
+      "What are the clearance sales?", "Can I get early access to sales?",
+      "Are there any referral rewards?", "What are the gift options?",
+      "Can I get discounts for bulk orders?", "Are there any flash sales?","Are there any discounts available?", "Tell me about your special offers." ],
+      "responses": [ "We occasionally run special promotions and offers. Stay updated by following us on social media or contacting us directly for the latest deals." ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [ "Do you offer delivery?", "What is your delivery process?", "How long does delivery take?",
+      "Can you provide information about shipping?", "What are the delivery options?",
+      "Do you offer express delivery?", "What is the shipping cost?",
+      "Is there a tracking number for my order?", "Can I change the delivery address?",
+      "What do I do if my delivery is delayed?", "Are there delivery restrictions?",
+      "How can I track my package?", "What courier service do you use?",
+      "Can I get free shipping?", "Is there a delivery confirmation?",
+      "Do you deliver internationally?", "What are the delivery hours?",
+      "How do I schedule a delivery?", "What happens if I miss the delivery?",
+      "Can I get same-day delivery?", "Are there delivery updates or notifications?","What are your shipping options?", "How long does delivery take?" ],
+      "responses": [ "Yes, we offer delivery services with additional shipping fees. Shipping options and delivery times may vary depending on your location. Please provide your location, and we will give you more details." ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "payment method",
+      "patterns": [ "What payment methods do you accept?","What payment methods do you accept?", "Can I pay with a credit card?",
+      "Do you accept cash payments?", "What are the available payment options?",
+      "Can I use mobile payment?", "Is online payment available?", "Do you offer COD?",
+      "What currencies do you accept?", "Can I pay with PayPal?", "Is there a payment plan option?","Can I pay with a credit card?", "Do you accept cash?" ],
+      "responses": [ "We accept various payment methods, including debit cards, cash, and online transfers. Let us know your preferred method during the checkout process." ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "nutritional values",
+      "patterns": [ "What are the nutritional benefits of your products?","What are the nutritional values of your products?",
+      "Can you provide the nutritional information?",
+      "Are there any dietary specifications?",
+      "Can I get the calorie count?", "What are the ingredients used?",
+      "Do you have allergen information?", "Are the products organic?",
+      "What are the nutritional benefits?", "Can I get the nutritional labels?",
+      "Do you offer gluten-free options?", "What are the serving sizes?",
+      "Can I find the nutritional facts on the packaging?",
+      "Are there any health-conscious options?",
+      "What are the vitamins and minerals in the products?",
+      "Can I get nutritional guidance?", "Are there low-sugar options?",
+      "Do you have vegan or vegetarian choices?",
+      "What are the recommended daily values?", "Can I find product certifications?","Can I get nutritional information for Cow Milk?", "Do you provide nutritional labels for your food items?", "What the nutritional values of Chesse" ],
+      "responses": [ "We strive to provide high-quality products with excellent nutritional benefits. For specific nutritional information, please refer to the product packaging or contact us for details." ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "bulk sales",
+      "patterns": [ "Can I place a bulk order?", "What payment methods do you accept?", "Can I pay with a credit card?",
+      "Do you accept cash payments?", "What are the available payment options?",
+      "Can I use mobile payment?", "Is online payment available?", "Do you offer COD?",
+      "What currencies do you accept?", "Can I pay with PayPal?", "Is there a payment plan option?","Do you offer wholesale pricing?", "Can I resell your products?" ],
+      "responses": [ "Yes, we offer bulk ordering and wholesale options. For more information on wholesale pricing and reselling opportunities, please contact our sales team at +2348037149761 or info@michadefarms.com.ng." ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "I don't know",
+        "Can you help?",
+        "What?",
+        "Sorry, I don't understand",
+        "Please explain",
+        "Confused","I don't understand.", "Can you repeat that?", "Sorry, I'm confused.",
+        "What?", "I didn't get that.", "Please explain further.",
+        "Not sure what you mean.", "Could you provide more details?",
+        "I'm lost.", "I need more information to proceed.",
+        "I'm not sure what to say.", "I don't know the answer.",
+        "I'm having trouble understanding.", "This is confusing.",
+        "I'm not following.", "Can you clarify your question?",
+        "I'm still learning, please bear with me.",
+        "I'm not programmed for that query.",
+        "I'm not knowledgeable on that topic.", "I'm a bit lost, can you try again?"
+      ],
+      "responses": [
+        "I'm sorry, but I couldn't understand your question. Please try asking in a different way.",
+        "I apologize, but I'm not sure what you're asking. Could you rephrase your question?",
+        "I don't have the answer to that. Could you provide more details?",
+        "I'm still learning and may not fully comprehend complex queries. Can you try a simpler question?",
+        "I'm sorry, I can't assist with that. Can you ask something else?",
+        "I didn't quite catch that. Can you please clarify?",
+        "I'm not programmed to answer that question. Can you ask another one?",
+        "I'm sorry, I don't have the information you're looking for. Please ask something else."
+      ]
+    }
+  ]
+}
