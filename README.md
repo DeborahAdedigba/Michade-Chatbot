@@ -16,7 +16,7 @@ The Michade ChatBot is an AI-driven conversational agent designed to provide com
 1. Clone the repository:
 
     ```
-    git clone https://github.com/DeborahAdedigba/chatBOT.git
+    git clone https://github.com/DeborahAdedigba/Michade-Chatbot.git
     ```
 
 2. Run the chatbot:
