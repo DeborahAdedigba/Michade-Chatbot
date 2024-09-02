@@ -1,7 +1,5 @@
 # Michade ChatBot
 
-Michade ChatBot - An AI-powered chatbot for assisting with ranch-related inquiries and animal farming guidance.
-
 ## Project Overview
 
 The Michade ChatBot is an AI-driven conversational agent designed to provide comprehensive information about Michade Farms and offer guidance for individuals interested in starting their own animal farming ventures. This chatbot leverages Natural Language Processing (NLP) and machine learning to simulate human-like interactions, making it easier for users to access relevant agricultural knowledge and farm-related services.
